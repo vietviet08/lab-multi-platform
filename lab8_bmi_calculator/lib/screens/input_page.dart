@@ -52,7 +52,7 @@ class _InputPageState extends State<InputPage> {
                     child: const Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                        Icon(FontAwesomeIcons.mars, size: 80.0),
+                        FaIcon(FontAwesomeIcons.mars, size: 80.0),
                         SizedBox(height: 15.0),
                         Text('MALE', style: kLabelTextStyle)
                       ],
@@ -78,7 +78,7 @@ class _InputPageState extends State<InputPage> {
                     child: const Column(
                       mainAxisAlignment: MainAxisAlignment.center,
                       children: <Widget>[
-                         Icon(FontAwesomeIcons.venus, size: 80.0),
+                         FaIcon(FontAwesomeIcons.venus, size: 80.0),
                         SizedBox(height: 15.0),
                         Text('FEMALE', style: kLabelTextStyle)
                       ],
@@ -155,13 +155,13 @@ class _InputPageState extends State<InputPage> {
                             FloatingActionButton(
                               backgroundColor: const Color(0xFF4C4F5E),
                               onPressed: () { setState(() { weight--; }); },
-                               child: const Icon(FontAwesomeIcons.minus, color: Colors.white,),
+                               child: const FaIcon(FontAwesomeIcons.minus, color: Colors.white,),
                              ),
                              const SizedBox(width: 10.0),
                              FloatingActionButton(
                              backgroundColor: const Color(0xFF4C4F5E),
                               onPressed: () { setState(() { weight++; }); },
-                               child: const Icon(FontAwesomeIcons.plus, color: Colors.white,),
+                               child: const FaIcon(FontAwesomeIcons.plus, color: Colors.white,),
                              ),
                           ],
                         )
@@ -187,13 +187,13 @@ class _InputPageState extends State<InputPage> {
                             FloatingActionButton(
                               backgroundColor: const Color(0xFF4C4F5E),
                               onPressed: () { setState(() { age--; }); },
-                               child: const Icon(FontAwesomeIcons.minus, color: Colors.white,),
+                               child: const FaIcon(FontAwesomeIcons.minus, color: Colors.white,),
                              ),
                              const SizedBox(width: 10.0),
                              FloatingActionButton(
                              backgroundColor: const Color(0xFF4C4F5E),
                               onPressed: () { setState(() { age++; }); },
-                               child: const Icon(FontAwesomeIcons.plus, color: Colors.white,),
+                               child: const FaIcon(FontAwesomeIcons.plus, color: Colors.white,),
                              ),
                           ],
                         )
