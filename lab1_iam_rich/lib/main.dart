@@ -12,7 +12,7 @@ void main() {
         body: const Center(
           child: Image(
             image: NetworkImage(
-              'https://raw.githubusercontent.com/londonappbrewery/iamrich/master/images/diamond.png',
+              'https://blog.brilliance.com/wp-content/uploads/2017/06/perfect-diamond-isolated-on-shiny-background.jpg',
             ),
           ),
         ),
