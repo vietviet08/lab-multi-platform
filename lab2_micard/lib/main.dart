@@ -23,9 +23,9 @@ class MyApp extends StatelessWidget {
                     'https://avatars.githubusercontent.com/u/1?v=4'), // Placeholder
               ),
               const Text(
-                'Angela Yu',
+                'Viet Nguyen Quoc',
                 style: TextStyle(
-                  fontFamily: 'Pacifico', // Cần thêm vào font pubspec nếu muốn local, ở đây dùng tạm mặc định
+                  fontFamily: 'Pacifico',
                   fontSize: 40.0,
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
